@@ -7,3 +7,15 @@ class Solution(object):
             for i in range(j + 1,len(nums)): #second counter for rest of numbers
                 if(nums[i] + nums[j] == target):
                     index1 = j
+                    index2 = i
+                
+                    index.append(index1)
+                    index.append(index2)
+                    
+        return index
+        
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
