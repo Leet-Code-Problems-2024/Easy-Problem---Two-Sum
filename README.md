@@ -14,7 +14,9 @@ Here's a step-by-step explanation of the code:
 
 3. Inside the inner loop, there is an if statement that checks whether the sum of the numbers at indices i and j equals the target:
 
-''' if(nums[i] + nums[j] == target): '''
+python
+
+          if(nums[i] + nums[j] == target):
 
 4. If the condition is true, the code sets the variable index1 to the value of j. 
 
